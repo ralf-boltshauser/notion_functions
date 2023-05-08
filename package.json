@@ -5,12 +5,13 @@
   "type": "module",
   "main": "reset-daily-checkbox.js",
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@notionhq/client": "^0.4.13",
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
+    "googleapis": "^105.0.0",
     "node-fetch": "^3.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node reset-daily-checkbox.js"
