@@ -65,8 +65,9 @@ const databaseId = process.env.DBID_AJE;
 
   console.log(pageUrl);
 
-  addDailyTask("Fill out daily journal (Morning)", pageUrl);
-  addDailyTask("Fill out daily journal (Evening)", pageUrl);
+  // WIP automatically add two tasks to google calendar with journal url
+  // addDailyTask("Fill out daily journal (Morning)", pageUrl);
+  // addDailyTask("Fill out daily journal (Evening)", pageUrl);
 
   let logs = [];
   try {
